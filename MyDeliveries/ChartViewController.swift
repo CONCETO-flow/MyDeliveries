@@ -17,7 +17,7 @@ class ChartViewController: FUIChartFloorplanViewController {
         super.viewDidLoad()
 
         title = "Waiting Time"
-        chartView.chartType = .bar
+        chartView.chartType = .waterfall
 
         chartView.dataSource = self
         summaryView.dataSource = self
