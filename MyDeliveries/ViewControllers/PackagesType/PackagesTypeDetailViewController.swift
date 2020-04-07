@@ -90,6 +90,16 @@ class PackagesTypeDetailViewController: FUIFormTableViewController, SAPFioriLoad
             cell.value = " "
             cell.accessoryType = .disclosureIndicator
             return cell
+        case 5:
+            let chartNavigationCell = tableView.dequeueReusableCell(withIdentifier: "NavToShowChart", for: indexPath)
+            chartNavigationCell.textLabel?.text = "Waiting Time"
+            chartNavigationCell.textLabel?.textColor = .preferredFioriColor(forStyle: .primary1)
+            return chartNavigationCell
+        case 6:
+            let mapNavigationCell = tableView.dequeueReusableCell(withIdentifier: "NavToShowTrackingMap", for: indexPath)
+            mapNavigationCell.textLabel?.text = "Track Delivery"
+            mapNavigationCell.textLabel?.textColor = .preferredFioriColor(forStyle: .primary1)
+            return mapNavigationCell
 
         default:
             return UITableViewCell()
@@ -97,7 +107,7 @@ class PackagesTypeDetailViewController: FUIFormTableViewController, SAPFioriLoad
     }
 
     override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
-        return 5
+        return 7
     }
 
     override func tableView(_: UITableView, didSelectRowAt indexPath: IndexPath) {

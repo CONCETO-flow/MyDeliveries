@@ -39,6 +39,7 @@
 		803B829885CC943C1317D2F0 /* SAPFioriLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B218AAF1BA663BF967F3E /* SAPFioriLoadingIndicator.swift */; };
 		82616AB8DB54D7B68A2E3730 /* DeliveryServiceMetadataChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0723931608140D9531D71BE /* DeliveryServiceMetadataChanges.swift */; };
 		887747BF243C701600412DC3 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887747BE243C701600412DC3 /* ChartViewController.swift */; };
+		88C22E54243C79A200F6F861 /* TrackingMapViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C22E53243C79A200F6F861 /* TrackingMapViewControllerViewController.swift */; };
 		8E5CF308F941845A0C97988F /* DeliveryServiceMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = F415C04D2B706C9EBE780F26 /* DeliveryServiceMetadata.swift */; };
 		94B194021E0CC7953656C99A /* CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEF98631296EF007B98E17 /* CollectionType.swift */; };
 		A80B98C850E68DAAE422285B /* DeliveryStatusType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AB834E90A18A340C6D5BB /* DeliveryStatusType.swift */; };
@@ -111,6 +112,7 @@
 		7FB8112F6DD6CCECBA35EF4C /* CellCreationHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellCreationHelper.swift; path = Utils/CellCreationHelper.swift; sourceTree = "<group>"; };
 		7FE184C7EBDE67D96F50AC93 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DeliveryStatusType.storyboard; sourceTree = "<group>"; };
 		887747BE243C701600412DC3 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		88C22E53243C79A200F6F861 /* TrackingMapViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingMapViewControllerViewController.swift; sourceTree = "<group>"; };
 		9D8B218AAF1BA663BF967F3E /* SAPFioriLoadingIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPFioriLoadingIndicator.swift; path = Utils/SAPFioriLoadingIndicator.swift; sourceTree = "<group>"; };
 		9FB41386BD19CFFA8B0CCE92 /* PackagesTypeMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PackagesTypeMasterViewController.swift; path = ViewControllers/PackagesType/PackagesTypeMasterViewController.swift; sourceTree = "<group>"; };
 		A53886504E0670AECD4848F8 /* PackagesType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PackagesType.swift; path = "Proxy Classes/public/PackagesType.swift"; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 				D01E47B0BC86DBD77250CAED /* CollectionsViewController.swift */,
 				E0C9D83D20A496D0ED96D1CB /* DeliveryStatusType */,
 				7CF27445E76E6D29E3D15033 /* PackagesType */,
+				88C22E53243C79A200F6F861 /* TrackingMapViewControllerViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 				94B194021E0CC7953656C99A /* CollectionType.swift in Sources */,
 				F4093C8A01D868F14192A0FA /* PackagesTypeMasterViewController.swift in Sources */,
 				71466E78AC50ECC37DA6ACA5 /* PackagesTypeDetailViewController.swift in Sources */,
+				88C22E54243C79A200F6F861 /* TrackingMapViewControllerViewController.swift in Sources */,
 				1882E3C84740695AD4103F98 /* DeliveryServiceStaticResolver.swift in Sources */,
 				68869E128B830A292E33E91C /* DeliveryServiceMetadataParser.swift in Sources */,
 				8E5CF308F941845A0C97988F /* DeliveryServiceMetadata.swift in Sources */,
